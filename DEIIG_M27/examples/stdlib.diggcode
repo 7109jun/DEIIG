@@ -1,0 +1,19 @@
+// DEIIG M9 standard library demo
+fn main() {
+    let path = "examples/m9_tmp.txt";
+    file.write(path, "Hello from DIGG\\n");
+    file.append(path, "DEIIG M9");
+
+    println("file exists:", file.exists(path));
+    println("file:", string.upper(file.read(path)));
+    println("length:", string.len("DEIIG"));
+    println("contains:", string.contains("DEIIG", "IIG"));
+
+    println("sqrt:", math.sqrt(81));
+    println("pow:", math.pow(2, 8));
+    println("cwd:", system.cwd());
+    println("pid:", process.pid());
+
+    process.sleep(1);
+    file.remove(path);
+}
