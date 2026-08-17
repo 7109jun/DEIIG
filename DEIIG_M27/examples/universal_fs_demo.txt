@@ -1,0 +1,7 @@
+DEIIG M25 Universal File System demo
+
+Try from the project root:
+  fs inspect examples/demo.diggcode
+  fs preview examples/demo.diggcode 2048
+  fs hex examples/demo.diggcode 128
+  fs related examples/demo.diggcode
